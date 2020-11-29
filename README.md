@@ -4,4 +4,6 @@
 
 ## Welcome! 👋
 
-The challenge: https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ
+The Challenge: https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJgit commit -m "first commit"
+
+Live Demo: https://frontend-mentor-profile-card-component-rosy.vercel.app/

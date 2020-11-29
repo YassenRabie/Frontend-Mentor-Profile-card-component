@@ -1,0 +1,114 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+ }
+
+ .circle-effect {
+    width: max(550px, 50vw);
+    height: max(550px, 50vw);
+    background-color: red;
+    position: absolute;
+ }
+
+ .circle1 {
+    left: -200px;
+    top: -250px;
+    background: url('./images/bg-pattern-top.svg');
+    background-size: cover;
+ }
+
+ .circle2 {
+    right: -200px;
+    bottom: -250px;
+    background: url('./images/bg-pattern-bottom.svg');
+    background-size: cover;
+ }
+
+ .container {
+    z-index: 100;
+    position: relative;
+    background-color: red;
+    background: url('./images/bg-pattern-card.svg');
+    padding-top: 10rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 500px hsl(229, 23%, 23%);
+    color: hsl(229, 23%, 23%);
+ }
+
+ .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ }
+
+ .personal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -48px;
+    padding-bottom: 2rem;
+    gap: 1rem;
+ }
+
+ .profile-image {
+    border-radius: 100%;
+    border: 5px solid white;
+ }
+
+ .bottom-bar {
+    display: flex;
+    border-top: 1px solid hsl(0, 0%, 90%);
+    padding: 1.5rem 3rem;
+    gap: 3rem;
+ }
+
+ .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+ }
+
+ .gray {
+    color: hsl(0, 0%, 59%);
+ }
+
+ .sm {
+    font-size: .8rem;
+    font-weight: 400;
+ }
+
+ @media only screen and (max-width: 375px) {
+    .circle-effect {
+       width: 500px;
+       height: 500px;
+       background-color: red;
+       position: absolute;
+    }
+    .circle1 {
+       left: -200px;
+       top: -250px;
+       background: url('./images/bg-pattern-top.svg');
+       background-size: cover;
+    }
+    .circle2 {
+       right: -200px;
+       bottom: -250px;
+       background: url('./images/bg-pattern-bottom.svg');
+       background-size: cover;
+    }
+ }
